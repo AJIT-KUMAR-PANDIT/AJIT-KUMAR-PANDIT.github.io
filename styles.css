@@ -83,8 +83,8 @@ h2 {
 }
 
 h1 {
-  font-size: 6rem;
-  margin-top: 30vh;
+  font-size: 3em;
+  margin-top: 3vh;
 }
 
 h2 {
@@ -105,4 +105,18 @@ h2 {
 
 .font-color-white {
   color: white;
+}
+
+/* home background start */
+.home-background {
+  background-image: url("images\koy1.jpg");
+}
+/* home background end */
+
+
+
+
+.aj{
+	
+	color: wheat;
 }
