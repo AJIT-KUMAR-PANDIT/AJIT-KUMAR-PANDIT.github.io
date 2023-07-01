@@ -71,8 +71,8 @@
   top: 0;
   bottom: 0;
   z-index: -1;
-  max-inline-size: 200% !important;
-  block-size: 100%;
+  max-inline-size: 100%;
+  block-size: auto;
 }
 
 /* page content */
