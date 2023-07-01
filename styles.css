@@ -71,6 +71,8 @@
   top: 0;
   bottom: 0;
   z-index: -1;
+  max-inline-size: 100%;
+  block-size: 100%;
 }
 
 /* page content */
@@ -167,3 +169,4 @@ div.fg{
   transform: scale(1);
 }
 /* inside 7.css heading ends */
+
