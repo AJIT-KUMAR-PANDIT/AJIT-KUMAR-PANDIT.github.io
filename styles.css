@@ -19,10 +19,6 @@
     border-radius: 10px 10px 0 0;
     z-index: 1;
   }
-  #dock-container li img {
-    left: 0;
-    right: 0;
-  }
 }
 #dock-container li {
   list-style-type: none; 
