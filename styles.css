@@ -157,6 +157,7 @@ div.bg {
   filter: drop-shadow(5px 15px 15px black);
   transform: scaleY(1.05);
   transform-origin: top;
+  text-align: center;
 }
 div.fg{
   background-image: repeating-linear-gradient( 5deg,  
@@ -165,6 +166,7 @@ div.fg{
     var(--gold) 31%);
   color: #1e2127;
   transform: scale(1);
+  text-align: center;
 }
 /* inside 7.css heading ends */
 
