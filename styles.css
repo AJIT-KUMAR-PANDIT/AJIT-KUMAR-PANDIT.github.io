@@ -71,7 +71,7 @@
   top: 0;
   bottom: 0;
   z-index: -1;
-  max-inline-size: auto;
+  max-inline-size: 200% !important;
   block-size: 100%;
 }
 
