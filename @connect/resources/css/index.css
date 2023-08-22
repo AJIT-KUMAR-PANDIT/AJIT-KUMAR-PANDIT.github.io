@@ -6,7 +6,7 @@ body{
 
 .container{
     width: 70vw;
-    height: 100vh;
+    height: 100%;
     background-color: rgba(255, 255, 255, 0.103);
     background-image: url('../img/45-degree-fabric-light.png');
     display: flex;
@@ -94,6 +94,8 @@ h1::before {
     justify-self: center;
     width: 100%;
     font-weight:normal;
+    text-align: center;
+    display: inline-block;
   }
 
   
