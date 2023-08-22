@@ -20,7 +20,7 @@ body{
 }
 
 .ajtxt{
-    color: #0b0a0e;
+    color: #ffffff;
     text-decoration: double;
     font-size: large;
     font-weight: bold;
@@ -29,12 +29,14 @@ body{
 .inner-button1,.inner-button2,.inner-button3,.inner-button4,.inner-button5,.inner-button6,.inner-button7{
 
     background-color: #43E660;
-    width: 61vw;
+    width: 81vw;
     display: flex;
+    border-radius: 11px;
 }
 
 .inner-button1:hover,.inner-button2:hover,.inner-button3:hover,.inner-button4:hover,.inner-button5:hover,.inner-button6:hover,.inner-button7:hover {
     transform: scale(1.1); 
+    background-color: white;
  }
 
 .button-img{
@@ -43,8 +45,17 @@ body{
 
 .centtxt{
     display: flex;
-    justify-items: center;
+    justify-self: center;
 }
+
+@media only screen and (max-width: 600px) {
+  .container{
+    width: 89vw;
+    height: 100vh;
+  }
+}
+
+
 
 /* hover animation */
 h1::before {  
