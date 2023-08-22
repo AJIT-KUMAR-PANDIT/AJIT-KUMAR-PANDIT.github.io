@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+    background-image: linear-gradient( #8e2de2, #4a00e0);
     display: flex;
     justify-content: center;
 }
@@ -10,8 +10,8 @@ body{
     background-color: rgba(255, 255, 255, 0.103);
     background-image: url('../img/45-degree-fabric-light.png');
     display: flex;
-	flex-direction: column;
-	align-items: center;
+	  flex-direction: column;
+	  align-items: center;
 }
 
 .imgsec{
@@ -34,7 +34,7 @@ body{
 }
 
 .inner-button1:hover,.inner-button2:hover,.inner-button3:hover,.inner-button4:hover,.inner-button5:hover,.inner-button6:hover,.inner-button7:hover {
-    transform: scale(1.5); 
+    transform: scale(1.1); 
  }
 
 .button-img{
@@ -76,7 +76,7 @@ h1::before {
     justify-self: center;
     justify-items: center;
     justify-self: center;
-    width: 612px;
+    width: 100%;
     font-weight:normal;
   }
 
