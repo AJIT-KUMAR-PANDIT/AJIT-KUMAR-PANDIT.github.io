@@ -29,7 +29,7 @@ body{
 .inner-button1,.inner-button2,.inner-button3,.inner-button4,.inner-button5,.inner-button6,.inner-button7{
 
     background-color: #43E660;
-    width: 81vw;
+    width: 65vw;
     display: flex;
     border-radius: 11px;
 }
@@ -53,6 +53,11 @@ body{
     width: 89vw;
     height: 100vh;
   }
+  .inner-button1,.inner-button2,.inner-button3,.inner-button4,.inner-button5,.inner-button6,.inner-button7{
+
+    background-color: #43E660;
+    width: 81vw;
+}
 }
 
 
