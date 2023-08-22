@@ -5,7 +5,7 @@ body{
 }
 
 .container{
-    width: 711px;
+    width: 70vw;
     height: 100vh;
     background-color: rgba(255, 255, 255, 0.103);
     background-image: url('../img/45-degree-fabric-light.png');
@@ -29,7 +29,7 @@ body{
 .inner-button1,.inner-button2,.inner-button3,.inner-button4,.inner-button5,.inner-button6,.inner-button7{
 
     background-color: #43E660;
-    width: 612px;
+    width: 61vw;
     display: flex;
 }
 
