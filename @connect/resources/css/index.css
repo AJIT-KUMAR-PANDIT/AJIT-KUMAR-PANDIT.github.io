@@ -1,6 +1,7 @@
 body {
   background-image: linear-gradient(to bottom right, #0100EC, #FB36F4);
-
+  background-image: url('../img/flat design.jpg');
+  background-size: 100vw;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -58,11 +59,12 @@ a {
 .inner-button5,
 .inner-button6,
 .inner-button7 {
-  background-color: #43e660;
+  background-color: #06060f;
   width: 65vw;
   display: flex;
   border-radius: 11px;
   padding: 3px 3px 3px 3px;
+  color: white;
 }
 
 .inner-button1:hover,
@@ -76,6 +78,7 @@ a {
   background-color: white;
   padding: 3px 3px 3px 3px;
   border: 3px solid tomato;
+  color: black;
 }
 
 .button-img {
@@ -89,16 +92,6 @@ a {
 @media only screen and (max-width: 600px) {
   .container {
     width: 89vw;
-  }
-  .inner-button1,
-  .inner-button2,
-  .inner-button3,
-  .inner-button4,
-  .inner-button5,
-  .inner-button6,
-  .inner-button7 {
-    background-color: #43e660;
-    width: 81vw;
   }
 }
 
