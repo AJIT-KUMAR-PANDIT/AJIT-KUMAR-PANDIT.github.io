@@ -1,169 +1,209 @@
-body{
-    background-image: linear-gradient( #8e2de2, #4a00e0);
-    display: flex;
-    justify-content: center;
-    text-align: center;
+body {
+  background-image: linear-gradient(to bottom right, #0100EC, #FB36F4);
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
-a{
+a {
   color: black;
 }
 
-.container{
-    width: 70vw;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.103);
-    background-image: url('../img/45-degree-fabric-light.png');
-    display: flex;
-	  flex-direction: column;
-	  align-items: center;
+.logo {
+  border-radius: 50%;
+  border: 3px solid red;
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  width: 32px;
+  height: 32px;
+  z-index: 2;
+  background-image: url(https://avatars.githubusercontent.com/u/49229210?v=4);
+  background-size: cover;
+}
+.logo:hover {
+  opacity: 0.8;
 }
 
-.imgsec{
-    border-radius: 50%;
-    width: 111px;
+.container {
+  width: 70vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.192);
+  backdrop-filter: blur(10px);
+  background-image: url("../img/diagmonds-light.png");
+  border-radius: 15px;
+  border: 1px solid rgba(43, 43, 43, 0.568);
 }
 
-.ajtxt{
-    color: #010101;
-    text-decoration: double;
-    font-size: large;
-    font-weight: bold;
+.imgsec {
+  border-radius: 50%;
+  width: 111px;
 }
 
-
-.inner-button1,.inner-button2,.inner-button3,.inner-button4,.inner-button5,.inner-button6,.inner-button7{
-
-    background-color: #43E660;
-    width: 65vw;
-    display: flex;
-    border-radius: 11px;
-    padding: 3px 3px 3px 3px;
+.ajtxt {
+  color: #010101;
+  text-decoration: double;
+  font-size: large;
+  font-weight: bold;
 }
 
-.inner-button1:hover,.inner-button2:hover,.inner-button3:hover,.inner-button4:hover,.inner-button5:hover,.inner-button6:hover,.inner-button7:hover {
-    transform: scale(1.1); 
-    background-color: white;
-    padding: 3px 3px 3px 3px;
-    border: 3px solid tomato;
- }
-
-.button-img{
-    width: 51px;
+.inner-button1,
+.inner-button2,
+.inner-button3,
+.inner-button4,
+.inner-button5,
+.inner-button6,
+.inner-button7 {
+  background-color: #43e660;
+  width: 65vw;
+  display: flex;
+  border-radius: 11px;
+  padding: 3px 3px 3px 3px;
 }
 
-.centtxt{
+.inner-button1:hover,
+.inner-button2:hover,
+.inner-button3:hover,
+.inner-button4:hover,
+.inner-button5:hover,
+.inner-button6:hover,
+.inner-button7:hover {
+  transform: scale(1.1);
+  background-color: white;
+  padding: 3px 3px 3px 3px;
+  border: 3px solid tomato;
+}
+
+.button-img {
+  width: 51px;
+}
+
+.centtxt {
   margin: 0 auto;
 }
 
 @media only screen and (max-width: 600px) {
-  .container{
+  .container {
     width: 89vw;
   }
-  .inner-button1,.inner-button2,.inner-button3,.inner-button4,.inner-button5,.inner-button6,.inner-button7{
-
-    background-color: #43E660;
+  .inner-button1,
+  .inner-button2,
+  .inner-button3,
+  .inner-button4,
+  .inner-button5,
+  .inner-button6,
+  .inner-button7 {
+    background-color: #43e660;
     width: 81vw;
-}
+  }
 }
 
 #myInput {
-  background-image: url('../img/search.png');
+  background-image: url("../img/search.png");
   background-size: 27px;
   background-position: 10px 12px;
   background-repeat: no-repeat;
-  width: 151px;
+  width: 171px;
   font-size: 16px;
   padding: 12px 20px 12px 40px;
   border: 1px solid #ddd;
   margin-bottom: 12px;
+  border: 3px solid crimson;
 }
 
+#myInput:hover{
+  border: 6px solid rgb(239, 235, 236);
+  border-radius: 21%;
+}
 
 /* hover animation */
-h1::before {  
-    transform: scaleX(0);
-    transform-origin: bottom right;
-  }
-  
-  h1:hover::before {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
-  
-  h1::before {
-    content: " ";
-    display: block;
-    position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
-    inset: 0 0 0 0;
-    background: gold;
-    z-index: -1;
-    transition: transform .3s ease;
-    text-align: center;
-  }
-  
-  h1 {
-    position: relative;
-    font-size: 1.6rem;
-    display: flex;
-    justify-self: center;
-    justify-items: center;
-    justify-self: center;
-    width: 100%;
-    font-weight:normal;
-    text-align: center;
-    display: inline-block;
-  }
+h1::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
 
-  
-  @media (orientation: landscape) {
-    body {
-      grid-auto-flow: column;
-    }
+h1:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+h1::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  background: gold;
+  z-index: -1;
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+h1 {
+  position: relative;
+  font-size: 1.6rem;
+  display: flex;
+  justify-self: center;
+  justify-items: center;
+  justify-self: center;
+  width: 100%;
+  font-weight: normal;
+  text-align: center;
+  display: inline-block;
+}
+
+@media (orientation: landscape) {
+  body {
+    grid-auto-flow: column;
   }
-  
+}
 
-  .footer{
-    position: fixed;
-    bottom: 0px;
-    background-color: rgba(240, 255, 255, 0.966);
-    color: black;
-    font-weight: bold;
-  }
+.footer {
+  position: fixed;
+  bottom: 0px;
+  background-color: rgba(240, 255, 255, 0.966);
+  color: black;
+  font-weight: bold;
+}
 
-  .verified{
-    width: 31px;
-  }
+.verified {
+  width: 31px;
+}
 
-
-  /* right click start*/
-  .context-menu {
-    position: absolute;
-    text-align: center;
-    background: lightgray;
-    border: 1px solid black;
+/* right click start*/
+.context-menu {
+  position: absolute;
+  text-align: center;
+  background: lightgray;
+  border: 1px solid black;
 }
 
 .context-menu ul {
-    padding: 0px;
-    margin: 0px;
-    min-width: 150px;
-    list-style: none;
+  padding: 0px;
+  margin: 0px;
+  min-width: 150px;
+  list-style: none;
 }
 
 .context-menu ul li {
-    padding-bottom: 7px;
-    padding-top: 7px;
-    border: 1px solid black;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  border: 1px solid black;
 }
 
 .context-menu ul li a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .context-menu ul li:hover {
-    background: darkgray;
+  background: darkgray;
 }
-  /* right click ends */
+/* right click ends */
