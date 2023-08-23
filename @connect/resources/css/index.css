@@ -93,6 +93,16 @@ a {
   .container {
     width: 89vw;
   }
+  .inner-button1,
+  .inner-button2,
+  .inner-button3,
+  .inner-button4,
+  .inner-button5,
+  .inner-button6,
+  .inner-button7 {
+    background-color: #06060f;
+    width: 81vw;
+  }
 }
 
 #myInput {
